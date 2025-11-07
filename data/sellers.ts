@@ -4,7 +4,7 @@ export const sellers = [
         name: "Janiele",
         image: "/sellers/janiele.png",
         location: "Camocim",
-        phone: "88996433271"
+        phone: "88997030002"
     },
     {
         id: 2,
