@@ -12,10 +12,10 @@ export default function Footer() {
                 <div className="w-1/2 flex flex-col items-center gap-2">
                     <p className="font-bold uppercase">Acesse nossas <span className="text-secondary">redes sociais</span></p>
                     <div className="flex gap-4">
-                        <Link href="https://www.instagram.com/famol_links/" target="_blank">
+                        <Link href="https://www.instagram.com/famolmoveis/" target="_blank">
                             <FaInstagram className="text-white hover:text-secondary transition-all" size={45} />
                         </Link>
-                        <Link href="https://www.facebook.com/famol_links" target="_blank">
+                        <Link href="https://wa.me/5588997030002" target="_blank">
                             <FaWhatsapp className="text-white hover:text-secondary transition-all" size={45} />
                         </Link>
                     </div>
