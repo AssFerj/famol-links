@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sellers.filter((seller) => seller.location === "Camocim").map((seller) => (
-                <Link key={seller.id} href={`/camocim/${seller.id}`} target="_blank" className="flex flex-col items-center">
+                <Link key={seller.id} href={`https://wa.me/55${seller.phone}`} target="_blank" className="flex flex-col items-center">
                   <Image src={seller.image} alt={seller.name} width={150} height={150} className="border-6 border-primary rounded-full p-0 hover:scale-110 transition-all" />
                   <span className="mt-2 text-white font-bold">{seller.name}</span>
                 </Link>
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sellers.filter((seller) => seller.location === "Granja").map((seller) => (
-                <Link key={seller.id} href={`/granja/${seller.id}`} target="_blank" className="flex flex-col items-center">
+                <Link key={seller.id} href={`https://wa.me/55${seller.phone}`} target="_blank" className="flex flex-col items-center">
                   <Image src={seller.image} alt={seller.name} width={150} height={150} className="border-6 border-primary rounded-full p-0 hover:scale-110 transition-all" />
                   <span className="mt-2 text-white font-bold">{seller.name}</span>
                 </Link>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8">
               {sellers.filter((seller) => seller.location === "Jijoca").map((seller) => (
-                <Link key={seller.id} href={`/jijoca/${seller.id}`} target="_blank" className="flex flex-col items-center">
+                <Link key={seller.id} href={`https://wa.me/55${seller.phone}`} target="_blank" className="flex flex-col items-center">
                   <Image src={seller.image} alt={seller.name} width={150} height={150} className="border-6 border-primary rounded-full p-0 hover:scale-110 transition-all" />
                   <span className="mt-2 text-white font-bold">{seller.name}</span>
                 </Link>
