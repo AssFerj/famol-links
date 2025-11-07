@@ -53,7 +53,7 @@ export const sellers = [
         name: "Jonas",
         image: "/sellers/jonas.png",
         location: "Camocim",
-        phone: "Camocim"
+        phone: "88981234946"
     },
     {
         id: 9,
@@ -78,10 +78,10 @@ export const sellers = [
     },
     {
         id: 12,
-        name: "Nayane",
+        name: "Bia",
         image: "/sellers/nayane.png",
         location: "Granja",
-        phone: "Granja"
+        phone: "88998377956"
     },
     {
         id: 13,
@@ -102,6 +102,6 @@ export const sellers = [
         name: "Márcia",
         image: "/sellers/marcia.png",
         location: "Jijoca",
-        phone: "Jijoca"
+        phone: "88992791344"
     },
 ]
