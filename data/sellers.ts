@@ -1,8 +1,8 @@
 export const sellers = [
     {
         id: 1,
-        name: "Janiele",
-        image: "/sellers/janiele.png",
+        name: "Luana",
+        image: "/sellers/luana3.png",
         location: "Camocim",
         phone: "88997030002"
     },
